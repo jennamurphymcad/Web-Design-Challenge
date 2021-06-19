@@ -1,0 +1,67 @@
+/* font-family: 'Roboto', sans-serif;
+font-family: 'Roboto Slab', serif; */
+
+/* Large and X-Large default CSS */
+/* Nav Bar Changes to match reference images from gitlab */
+
+.navbar {
+    margin: 0px;
+    padding-top: 0px!important; 
+    padding-bottom: 0px!important; 
+}
+.navbar-expand-md {
+    background-color: #fff;
+}
+
+a.navbar-brand {
+    background-color: #20b2aa;
+    color: #fff!important;
+    padding: .75rem;
+    max-height: 100%!important;
+    font-family: 'Roboto Slab', serif;
+    font-size: 1.75rem;
+}
+
+.container-fluid  {
+    padding-right: 0rem!important; 
+    padding-left: 0rem!important; 
+}
+/* End Navbar CSS Settings */
+
+html {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+
+body {
+    background-color: #f8f9fa;
+}
+
+/* medium screen queries */
+@media (max-width: 768px) {
+    /* div#navbarNavDropdown {
+        background-color: #f8f9fa!important;
+        margin-top: 5px;
+        width: 100%;
+    } */
+    button.navbar-toggler {
+        margin-right: .75rem;
+    }
+    .navbar-expand-md {
+        background-color: #20b2aa;
+    }
+    
+    #navbarNavDropdown {
+        background-color: #fff;
+    }
+
+    .navbar-nav .nav-link {
+        /* padding-right: 0; */
+        padding-left: .75rem;
+    }
+
+    .dropdown-menu {
+        color: lightslategray;
+  }
+}
+  
