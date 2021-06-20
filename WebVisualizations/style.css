@@ -41,7 +41,7 @@ main {
     padding-top: .75rem;
 }
 
-div.vis-main-summary {
+div.vis-main-summary, div.max-temp-summary, div.humidity-summary, div.cloud-summary, div.wind-speed-summary {
     width: 69%;
     float: left;
     margin-right: .75rem;
@@ -60,7 +60,7 @@ div.vis-side-navigation img {
     max-width: 100%;
 }
 
-div.comparison-container img {
+div.comparison-container img, div.max-temp-summary img, div.humidity-summary img, div.cloud-summary img, div.wind-speed-summary img {
     max-width: 100%;
 }
 .row {
@@ -95,6 +95,10 @@ table {
     border: 1px solid #f8f9fa;
     max-width: 100%;
 }
+
+div.active-side-nav {
+    border: 1px solid #20b2aa;
+}
 /* end table styling */
 
 /* medium screen queries */
@@ -124,7 +128,7 @@ table {
         color: lightslategray;
     }
 
-    div.vis-main-summary {
+    div.vis-main-summary, div.max-temp-summary, div.humidity-summary, div.cloud-summary, div.wind-speed-summary {
     width: 100%;
     float: none;
     }
