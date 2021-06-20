@@ -74,6 +74,7 @@ h1, h2 {
 hr {
     border: .5px dashed #f8f9fa;
     border-radius: 5px;
+    width: 100%;
 }
 /* medium screen queries */
 @media (max-width: 768px) {
