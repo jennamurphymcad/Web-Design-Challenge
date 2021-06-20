@@ -1,8 +1,6 @@
-/* font-family: 'Roboto', sans-serif;
-font-family: 'Roboto Slab', serif; */
-
 /* Large and X-Large default CSS */
 /* Nav Bar Changes to match reference images from gitlab */
+
 
 .navbar {
     margin: 0px;
@@ -37,6 +35,31 @@ body {
     background-color: #f8f9fa;
 }
 
+main {
+    max-width: 90%;
+    margin: 0 auto;
+    padding-top: .75rem;
+}
+
+div.vis-main-summary {
+    width: 73%;
+    float: left;
+    margin-right: .75rem;
+}
+
+div.vis-side-navigation {
+    width: 25%;
+    float: right;
+}
+
+.my-container {
+    background-color: #fff;
+}
+
+h1, h2 {
+    color: #20b2aa;
+    font-family: 'Roboto Slab', serif;
+}
 /* medium screen queries */
 @media (max-width: 768px) {
     /* div#navbarNavDropdown {
@@ -62,6 +85,22 @@ body {
 
     .dropdown-menu {
         color: lightslategray;
-  }
+    }
+
+    div.vis-main-summary {
+    width: 100%;
+    float: none;
+    }
+
+    div.vis-side-navigation {
+    width: 100%;
+    float: none;
+    }
+
+    main {
+        max-width: 100%;
+        margin: 0 auto;
+        padding-top: 0rem;
+    }
 }
   
